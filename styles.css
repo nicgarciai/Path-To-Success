@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 :root {
-    font-family: "Kavoon", sans-serif;
+    font-family: inter, sans-serif;
     font-size: 1em;
 
     --Teal :#4CA7C0;
@@ -10,6 +10,42 @@
     --Pink:#D9526F;
     --Dark-gray:#1E1E1E; 
     --White:#ffffff; 
-
 }
  
+body {
+    background-color: var(--Purple);
+    width: 320px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: var(--Lavender);
+}
+
+h1,h2{
+    font-family: "Kavoon", sans-serif;
+    color: var(--White);
+}
+
+h3{
+    color: var(--Yellow);
+}
+
+section {
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+#why-choose-us {
+    background-color: var(--Pink);
+    border-radius: 0;
+}
+
+#first-step{
+    background-color: var(--Pink);
+    border-radius: 0;
+
+}
