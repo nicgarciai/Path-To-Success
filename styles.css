@@ -1,4 +1,10 @@
+/* CSS BY NIC GARCIA */
+
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/* CSS REST */
+
+/* ROOT VARIABLES */
 :root {
     font-family: inter, sans-serif;
     font-size: 1em;
@@ -11,6 +17,9 @@
     --Dark-gray:#1E1E1E; 
     --White:#ffffff; 
 }
+
+/* GLOBAL STYLES (mobile first/small) */
+
 h1,h2{
     font-family: "Kavoon", sans-serif;
     color: var(--White);
@@ -25,7 +34,7 @@ h1{
 
 }
 h2 {
-    line-height: 0.0;
+    line-height: normal;
     font-size: 2em;
     font-weight: normal;
 
@@ -153,37 +162,95 @@ section h4{
 
 #why-choose-us {
     width: 450px;
+    margin: 0 auto;
+    
     background-color: var(--Pink);
     border-radius: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 3;
-    margin-bottom: 3;
+
     padding: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
-#why-choose-us ul li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    border-radius: 15px;
+#why-choose-us ul {
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+
+
     
-    margin: 10px;
     list-style: none;
-    background-color: var(--Yellow);
     font-weight: bolder;
 
+
+}
+#why-choose-us ul li {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin: .4rem;
+
+
+}
+#why-choose-us ul .teabox{
+    background-color: var(--Teal);
+    grid-row: 1;
+}
+#why-choose-us ul .lavbox{
+    background-color: var(--Lavender);
+    grid-row: 1;
+}
+#why-choose-us ul .yelbox{
+    background-color: var(--Yellow);
+    grid-row: 2;
+
+}
+#why-choose-us ul .whibox{
+    background-color: var(--White);
+    grid-row: 2;
+}
+#why-choose-us h2{
+    margin: 20px;
+
+
 }
 
+table {
+    margin: 0 auto;
+    background-color: var(--Yellow);
+
+}
+th, td{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: var(--White);
+}
+th {
+    background-color: var(--Yellow);
+    text-transform: uppercase;
+
+}
+thead{
+    background-color: var(--Yellow);
+}
+
+
 #first-step{
-    text-align:center;
+    width: 450;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align:left;
 
     background-color: var(--Pink);
     border-radius: 0;
+    color: var(--White);
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 
 }
 
@@ -194,15 +261,49 @@ section h4{
     margin-bottom: 0;
 
 }
-footer{
+#first-step #button{
+    text-align:center;
+    text-transform: uppercase;
+    color: var(--Dark-gray);
+    size: 1em;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
 
+}
+footer{
+    
     width: 450px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+
+
     padding:30px 0px 30px 0px ;
     border-radius:0 0 20px 20px;
     text-align: center;
     background-color: var(--Lavender);
     z-index: 2;
 
+}
+
+footer p{
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 0px;
+    color: var(--White);
+    text-align: center;
+    
+}
+#tandc{
+    color: var(--White);
+    text-decoration: underline;
+
+    
 }
 
