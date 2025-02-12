@@ -14,12 +14,20 @@
  
 body {
     background-color: var(--Purple);
-    width: 320px;
+    width: 450px;
     margin: 0 auto;
 }
+
+header{
+    margin: 0 auto;
+    width: 450px;
+    
+}
 header h2{
+
     text-align: right;
     position: fixed;
+    position: 0;
     background-color: var(--Yellow);
     color: #1E1E1E;
     padding: 1.5rem;
@@ -31,12 +39,41 @@ header h2{
     z-index: 3;
 }
 
-header h3{
-    font-style: italic;
+
+
+header  h1{
+    width: 450px;
     margin: 0 auto;
-    padding: 3rem;
     position: absolute;
+    top:0;
+    font-size: 3em;
+
+    background-color: var(--Lavender);
+    padding: 1rem;
+
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 2;
+    
+
+}
+
+header h3{
+    width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    top:0;
+    
+
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    margin: 4rem;
+
     background-color: var(--Pink);
     color: var(--White);
     border-bottom-left-radius: 15px;
@@ -45,30 +82,12 @@ header h3{
 
 }
 
-header, footer {
-    background-color: var(--Lavender);
-    z-index: 1;
-}
 
-header {
-    background-color: var(--Lavender);
-
-    padding: 0;
-    margin: 0 ;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    position: -30px;
-    z-index: 2;
-    
-
-}
 
 
 h1,h2{
     font-family: "Kavoon", sans-serif;
     color: var(--White);
-    size: 3em;
-    line-height: 0.0;
 
 }
 h1{
@@ -91,7 +110,6 @@ h3{
     color: var(--Yellow);
     size: 1.5em;
     font-weight: bold;
-    line-height: .5em;
 
 }
 
@@ -112,16 +130,11 @@ p{
     size: .5em;
 }
 section {
+    
     background-color: var(--White);
     border-radius: 15px;
-    padding: 18px;
-    padding-bottom: 7px;
-    margin-left: 5px;  
-    margin-right: 5px;  
-
-
-    margin-bottom: 15x;  
-      margin-top: 15px;
+    padding: 22px;
+    margin: 20px;
     
 }
 
@@ -137,9 +150,14 @@ section h4{
 
 
 #why-choose-us {
+    width: 450px;
     background-color: var(--Pink);
     border-radius: 0;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3;
+    margin-bottom: 3;
+
 }
 
 #first-step{
@@ -156,3 +174,4 @@ section h4{
     margin: O auto;
 
 }
+
