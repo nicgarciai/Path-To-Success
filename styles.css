@@ -185,8 +185,7 @@ section h4{
 #why-choose-us ul {
     margin-right: 30px;
     display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 1fr;
 
 
     
@@ -305,7 +304,7 @@ footer{
 
 footer p{
     margin-right: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 0px;
     color: var(--White);
     text-align: center;
